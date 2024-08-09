@@ -58,7 +58,7 @@ La salida (<code>else{}</code>) del widget se hace reasignando todos los valores
 
 # Flujo de información entre los widgets GuardarMapa --> Vectoresmovimiento
 ## Diagrama de flujo de trabajo para la restitución de los Vectores de Movimiento
-![Diagrama de flujo](./Flujo.png)
+![Diagrama de flujo](./images-readme/Flujo.png)
 Puede verse en el diagrama de flujo que:
 ### Desde VectoreMovimiento
 1. En el widget de VectoresMovimiento se inicia la UI generando los controles.
