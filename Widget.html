@@ -1,0 +1,40 @@
+<div>
+	<div>
+		<p class="titulo"> ${nls._widgetLabel} </p>
+	</div>	
+	<div>
+		<table>
+			<tr class="spaceUnder">
+				<td colspan="2">
+					<p class="instruccion"> ${nls.capa} </p>
+					<div id="nodoInsercionSelectorCapaMoVector"></div>
+		  		</td>
+			</tr>			   
+		</table>
+		
+		<table>
+			<tr class="spaceUnder">
+				<td colspan="2">
+					<button data-dojo-attach-point="jimuButtonExe" class="jimu-btn" data-dojo-attach-event="onclick:obtenerValoresUnicos"> ${nls.ejecutar} </button>     
+				</td>
+			</tr>
+		</table>
+		<!-- lista de capas -->
+		<table class="panelCapas panelOculto" id="panelCapasGraficasVectores">
+			<tr class="spaceUnder">
+				<td rowspan="2"><p class="tituloCapas"> ${nls.tituloCapas}</p></td>
+			</tr>
+		</table>
+		
+		<br>
+		<br>
+				
+		<table>
+			<tr class="spaceUnder" style="padding-left: 3px;">
+				<div>
+					<span id="versionMoVector" class="version"></span>
+				</div>
+			</tr>
+		</table>
+	</div>
+</div>

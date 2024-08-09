@@ -1,0 +1,24 @@
+{
+  "name": "VectorMovimiento",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "5.4.1-22.10",
+  "wabVersion": "2.19",
+  "author": "Víctor M Bajo (vmbajop@gmail.com)",
+  "description": "Para entidades de tipo punto identificadas como la misma entidad registrada en distintas posiciones para diferentes fechas, crea un gráfico mostrando el vector de movimiento entre posiciones a lo largo del tiempo",
+  "copyright": "CIFAS - Ministerio de Defensa de España",
+  "license": "copyright",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": true,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":true,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

@@ -1,0 +1,142 @@
+.jimu-widget-vectorMovimiento div:first-child{
+  color: inherit;
+  font-family: serif;
+}
+.titulo{	
+	text-align: center;
+	font-weight: bold;
+	font-size: medium;
+}
+/*Por defecto, en las clases para iconos de dijit/MenuItem width y height son 18*/
+.iconos{
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+}
+/*Se saca el valor de background-image para cada uno de los iconos para no repetir lo de la clase iconos y se asignan dos clases al menuItem */
+.iconoBorrarcapa{
+	background-image: url("../images/borrarcapa18x18.png");
+	
+}
+.iconoZoomCapa{
+	background-image: url("../images/zoomacapa18x18.png");
+}
+.iconoSimbolizar{
+	background-image: url("../images/ojo18x18.png");
+}
+.iconoAnimar{
+	background-image: url("../images/animarcapa18x18.png");
+}
+.iconoDesanimar{
+	background-image: url("../images/desanimarcapa18x18.png");
+}
+.iconoTexto{
+	background-image: url("../images/textoAn18x18.png");
+}
+.iconoColor{
+	background-image: url("../images/color18x18.png");
+}
+.iconoTTexto{
+	background-image: url("../images/textoT18x18.png");
+}
+.iconoVectores{
+	background-image: url("../images/lineasr18x18.png");
+}
+.iconoColorLinea{
+	background-image: url("../images/lineasColor18x18.png");
+}
+.iconoTLinea{
+	background-image: url("../images/tamanioLinea18x18.png");
+}
+.iconoTipoLinea{
+	background-image: url("../images/tipoLinea18x18.png");
+}
+.iconoTLineaSolid{
+	background-image: url("../images/TLsolid18x18.png");
+}
+.iconoTLineaShortDas{
+	background-image: url("../images/TLshort18x18.png");
+}
+.iconoTLineaLongDas{
+	background-image: url("../images/TLlong18x18.png");
+}
+.iconoTLineaShortDasDot{
+	background-image: url("../images/TLshorDot18x18.png");
+}
+.iconoTLineaLongDasDot{
+	background-image: url("../images/TLlongDot18x18.png");
+}
+.iconoTLineaDot{
+	background-image: url("../images/TLdot18x18.png");
+}
+.tituloCapas{
+	text-align: left;
+	color: black;
+	font-size: larger;
+	font-weight:bolder;
+}
+/*tamaño imagen de tipo de capa del selector de capas*/
+.imageSelector{
+	height:auto;
+	width:auto;
+}
+.capaPanel{
+	padding-left: 3px;
+	padding-right: 3px;
+	vertical-align: middle; /*e baseline*/
+}
+/*cursor y prevenir selección del texto para doble clid en la capa*/
+.capaPanelTexto{
+	cursor: pointer;
+	text-align: left;
+	color: black;
+	font-size: x-small;
+	-webkit-user-select: none; /* Safari y Firefox antiguos */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Versión sin prefijo, compatible con Chrome y Opera */
+}
+.capaPanelTexto:hover{
+	/*font-weight: bolder;*/
+	font-style: italic;
+}
+.panelOculto{
+	display: none;
+}
+.panelCapas{
+	width: 100%;
+	box-shadow: 3px 3px 5px #c7c7c7;
+}
+tr.spaceUnder > td {
+ padding-bottom: 1.0em;
+ padding-right: 3em;
+}
+.jimu-btn {
+    background: #24B5CC;
+    font-size: medium
+}
+.jimu-btn:hover {
+    background: slategrey;
+}
+/*sobrescritura de jimu-state-disabled para que el botón no ejecute nada 
+porque si no sólo se limita a cambiar el aspecto*/
+.jimu-state-disabled{
+	pointer-events: none;
+}
+.version{
+	font-size: x-small;
+}
+
+ /*------------------------------*/
+ /*Personalización del cuadro de dialogo de advertencia eliminación capa*/
+ /*imagen de la advertencia*/
+ .advertencia{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 30px;
+}
+.advertenciaTXT{
+	vertical-align: top;
+    font-size: larger;
+}

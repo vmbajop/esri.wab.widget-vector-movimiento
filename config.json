@@ -1,0 +1,72 @@
+{	
+	"IdentificadorCapa":
+    {
+        "vectores": "capaVectoresDireccion",
+        "textos": "capaTextosFechaVectores"
+    },
+    "PropiedadesGraficas":
+    {
+        "Fuente":
+        {
+            "tamanioInicialFuente":10,
+            "colorInicialTexto":[0, 0, 0],
+            "escalaMinimaMostrarEtiqueta":10000000
+        },
+        "Lineas":
+        {
+            "anchoLinea":2,
+            "tipoLinea": "SimpleLineSymbol.STYLE_DOT"                
+        },
+        "APP6":
+        {
+            "usarFechaLarga": false,
+            "tamanioSimbolo": 16,
+            "tamanioTextoInformacion": 45,
+            "grosorLíneasDelSimbolo": 4,
+            "symbolColorMode": "Dark",
+            "fontFamily": "Arial"
+        }
+    },
+    "CamposCapaPosicionesHistoricas":
+    {
+        "campoIdentificadorUnicoEntidadEnMovimiento": "OII_OBJECT_ID",
+        "campoCodigoAPP6": "SYMBOL_ID",
+        "campoFechaInicioPosicion": "FECHA_INICIO_POSICION",
+        "campoNumeralDesignadorUnico": "NUMERAL",
+        "campoNombreCortoPais": "PAIS_COD",        
+    
+        "campoNombreEntidadEnMovimiento": "NOMBRE"
+       
+    },
+    "paletaColores":
+    {	
+        "simple": [
+            {"color":{"r":0,"g":0,"b":0}},
+            {"color":{"r":255,"g":255,"b":255}},
+            {"color":{"r":128,"g":128,"b":128}},
+            {"color":{"r":211,"g":211,"b":211}},
+            {"color":{"r":0,"g":0,"b":255}},
+            {"color":{"r":128,"g":224,"b":255}},
+            {"color":{"r":0,"g":128,"b":0}},
+            {"color":{"r":40,"g":237,"b":40}},
+            {"color":{"r":255,"g":255,"b":0}},
+            {"color":{"r":255,"g":0,"b":0}}
+        ],
+    
+        "treceColores":[
+            {"color":{"r":0,"g":0,"b":0}},
+            {"color":{"r":255,"g":255,"b":255}},
+            {"color":{"r":128,"g":128,"b":128}},
+            {"color":{"r":211,"g":211,"b":211}},
+            {"color":{"r":0,"g":0,"b":255}},
+            {"color":{"r":0,"g":168,"b":220}},
+            {"color":{"r":128,"g":224,"b":255}},
+            {"color":{"r":0,"g":128,"b":0}},
+            {"color":{"r":0,"g":226,"b":110}},
+            {"color":{"r":40,"g":237,"b":40}},
+            {"color":{"r":255,"g":255,"b":0}},
+            {"color":{"r":255,"g":0,"b":0}},        
+            {"color":{"r":255,"g":48,"b":49}}
+        ]
+    }
+}
