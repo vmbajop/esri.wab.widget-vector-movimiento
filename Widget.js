@@ -101,7 +101,7 @@ define([
       _campoNombre: null,                    //campo para establecer el nombre de la organización en seguimiento en cada capa
       _campoFecha: null,                     //fecha para ordenar el resultado de la consulta.
       _campoFechaAPP6: null,                 //Campo con la fecha en formato APP6.
-      _campoAPP6: null,                      //campo para donde está el código APP6B      
+      _campoAPP6: null,                      //campo donde está el código APP6B      
       _campoDesignacionUnica: null,          //campo para la designación única del conjunto histórico de puntos      
       _campoCodPais: null,
       _tipoLinea: SimpleLineSymbol.STYLE_SHORTDASH, //Tipo de línea inicial para generar los vectores con SimpleLineSymbol  

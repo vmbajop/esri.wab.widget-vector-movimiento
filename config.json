@@ -29,11 +29,11 @@
     },
     "CamposCapaPosicionesHistoricas":
     {
-        "campoIdentificadorUnicoEntidadEnMovimiento": "OII_OBJECT_ID",
-        "campoCodigoAPP6": "SYMBOL_ID",
-        "campoFechaInicioPosicion": "FECHA_INICIO_POSICION",
-        "campoNumeralDesignadorUnico": "NUMERAL",
-        "campoNombreCortoPais": "PAIS_COD",        
+        "campoIdentificadorUnicoEntidadEnMovimiento": "HISTORICO_OBJECTID",
+        "campoCodigoAPP6": "SIDC",
+        "campoFechaInicioPosicion": "FECHA_POSICION_INICIAL",
+        "campoNumeralDesignadorUnico": "DESIGNADOR_UNICO",
+        "campoNombreCortoPais": "COD_COUNTRY",        
     
         "campoNombreEntidadEnMovimiento": "NOMBRE"
        

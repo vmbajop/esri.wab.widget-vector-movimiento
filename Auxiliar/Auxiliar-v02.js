@@ -13,7 +13,7 @@ define([
             var dt = new Date(valor);
             //1.- alternativa new Date(feature.attributes[campoFecha]).toUTCString() porque la fecha que lee en el campo es un número largo en milisegundos        
             //2.- Debe tenerse en cuenta que para el formato de hora que pide APP6B (DDHHMMSSZMONYY)debería ser hora Zulú (UTC), por lo que debería usarse Date.UTC()
-            //    pero como no se está controlando el formato de entrada en base de datos, no tiene sentido hacer la conversión
+            //    Si no se está controlando el formato de entrada en base de datos, no es necesario hacer la conversión
             var resultado = ("0" + dt.getDate()).slice(-2); //agrega un 0 delante si es menor de 10
             
             if(usarHora){
@@ -66,7 +66,7 @@ define([
         },
 
         /**
-         * Para un layerInfo, recorre hacia arriba todos los parentLayerInfo y devuelve el resultado, obteniendo la propiea capa si es una featureLayer no anidad
+         * Para un layerInfo, recorre hacia arriba todos los parentLayerInfo y devuelve el resultado, obteniendo la propiea capa si es una featureLayer no anidada
          * O la capa raíz en otro caso
          * @param {esri/layers/LayerInfo} layerInfo LayerInfo a analizar
          * @returns {esri/layers/LayerInfo} LayerInfo resultado 
